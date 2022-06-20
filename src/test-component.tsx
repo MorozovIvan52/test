@@ -1,10 +1,15 @@
 import * as React from 'react';
 
-type Props = {};
-export const TestComponent = (props: Props) => {
+type NewComponentProps = {};
+export const NewComponent = (props: NewComponentProps) => {
     return (
         <div>
-            hello
+            <div>
+               i dmitriy yulin
+            </div>
+
         </div>
     );
 };
+
+
